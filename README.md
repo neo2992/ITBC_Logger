@@ -1,12 +1,12 @@
 # ITBC_Logger
-The final project for IT Bootcamp. Implementation of simple logger Rest API with Springboot, JPA, Microsoft SQL database.
+The final project for IT Bootcamp. Implementation of simple logger Rest API with Springboot, Spring Data JPA, Spring Data JDBC, Microsoft SQL database.
 # Endpoints
-**Register**
+1. **Register**
 
 
-HTTP Method: 'POST'<br/>
-Endpoint URL: '/api/clients/register'<br/>
-Request body:
+- HTTP Method: 'POST'<br/>
+- Endpoint URL: '/api/clients/register'<br/>
+- Request body:
 {
   "username":"string",
   "password":"string",
